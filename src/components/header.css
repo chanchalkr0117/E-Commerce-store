@@ -1,0 +1,19 @@
+.navbar {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    text-align: center;  
+    background-color: lightblue;   
+}
+.log{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-top: 15px;  
+}
+.fa-shopping-cart{
+    font-size: 35px;
+    margin-top: 20px;
+}

@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    background-color: aquamarine;
+    float: left;
+}
+.card {
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: rgb(152, 197, 225)
+   
+}
+.card-title{
+    background-color: rgb(78, 82, 82) ; 
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.card-description{
+    background-color: rgb(115, 120, 120) ;
+    
+}
+
+.card-footer{
+    background-color: rgb(115, 120, 120);
+    padding: 10px;
+}
+.cart-button{
+    background-color: black;
+    color: aliceblue;
+    padding: 8px 8px;
+}
+.cart-button:hover{
+    cursor: pointer;
+    column-rule-color: blue;
+}

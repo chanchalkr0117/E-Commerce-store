@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "old_school_games",
+  "info": {
+    "singularName": "old-school-game",
+    "pluralName": "old-school-games",
+    "displayName": "old-school-game"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "integer"
+    }
+  }
+}
